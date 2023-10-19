@@ -12,7 +12,7 @@ namespace Back
 
         public void AgregarCliente(Cliente nuevoCliente)
         {
-            context.Cliente.Add(nuevoCliente);
+            context.cliente.Add(nuevoCliente);
             context.SaveChanges();
         }
 
@@ -28,5 +28,29 @@ namespace Back
             context.tarjetaCredito.Add(cliente);
             context.SaveChanges();
         }
+
+        public void RealizarDeposito(CuentaBancaria cuenta,int deposito)
+        {
+            var cuentaEncontrada = context.cuentaBancaria.Find(cuenta.id);
+            if(cuentaEncontrada != null)
+            {
+                cuentaEncontrada.saldo += deposito;
+                context.SaveChanges();
+            }
+        }
+
+        public void PausarTarjetaCredito(TarjetaCredito tarjeta)
+        {
+            var tarjetaEncontrada = context.tarjetaCredito.Find(tarjeta.id);
+            if (tarjetaEncontrada != null & tarjeta.estado!="activo")
+            {
+                //FALTA TERMINAR
+                context.SaveChanges();
+            }
+
+
+        }
+
+
     }
 }
