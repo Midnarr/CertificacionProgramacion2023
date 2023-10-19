@@ -10,7 +10,6 @@ namespace Back
     {
         BaseDatos context = new BaseDatos();
 
-
         public void AgregarCliente(Cliente nuevoCliente)
         {
             context.Cliente.Add(nuevoCliente);

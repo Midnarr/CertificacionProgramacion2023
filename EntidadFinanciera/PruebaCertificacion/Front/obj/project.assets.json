@@ -2881,11 +2881,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Usuario\\source\\repos\\PruebaCertificacion\\Front\\Front.csproj",
+      "projectUniqueName": "C:\\Users\\Usuario\\Documents\\GitHub\\CertificacionProgramacion2023\\EntidadFinanciera\\PruebaCertificacion\\Front\\Front.csproj",
       "projectName": "Front",
-      "projectPath": "C:\\Users\\Usuario\\source\\repos\\PruebaCertificacion\\Front\\Front.csproj",
+      "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\CertificacionProgramacion2023\\EntidadFinanciera\\PruebaCertificacion\\Front\\Front.csproj",
       "packagesPath": "C:\\Users\\Usuario\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Usuario\\source\\repos\\PruebaCertificacion\\Front\\obj\\",
+      "outputPath": "C:\\Users\\Usuario\\Documents\\GitHub\\CertificacionProgramacion2023\\EntidadFinanciera\\PruebaCertificacion\\Front\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2906,8 +2906,8 @@
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
           "projectReferences": {
-            "C:\\Users\\Usuario\\source\\repos\\PruebaCertificacion\\Back\\Back.csproj": {
-              "projectPath": "C:\\Users\\Usuario\\source\\repos\\PruebaCertificacion\\Back\\Back.csproj"
+            "C:\\Users\\Usuario\\Documents\\GitHub\\CertificacionProgramacion2023\\EntidadFinanciera\\PruebaCertificacion\\Back\\Back.csproj": {
+              "projectPath": "C:\\Users\\Usuario\\Documents\\GitHub\\CertificacionProgramacion2023\\EntidadFinanciera\\PruebaCertificacion\\Back\\Back.csproj"
             }
           }
         }
